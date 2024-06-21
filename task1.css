@@ -1,0 +1,64 @@
+.navbar {
+    display: flex;
+    background-color: cadetblue;
+    font-family: sans-serif;
+
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+
+}
+
+.item a {
+    color: white;
+    text-decoration: none;
+}
+
+#home {
+    height: 250px;
+    width: 100%;
+    top: 12px;
+    margin-top: 80px;
+    background-color: aquamarine;
+}
+
+#contact {
+    height: 250px;
+    width: 100%;
+    background-color: goldenrod;
+}
+
+#service {
+    height: 250px;
+    width: 100%;
+    background-color: peachpuff;
+}
+
+#about {
+    height: 250px;
+    width: 100%;
+    background-color: violet;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0px;
+}
+
+.item a:hover {
+    color: gold;
+}
+
+.item {
+    padding: 15px;
+    border-radius: 13px;
+}
+
+div.scrolled,
+div.hovered {
+    background-color: rebeccapurple;
+}
